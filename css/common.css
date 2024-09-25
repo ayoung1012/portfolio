@@ -195,6 +195,7 @@ header #cafe{
 }
 #my .allbox .all2 .a2 .s .icon{
     width: 600px;
+  display:block;
     margin-left: 30px;
 }
 #my .allbox .all2 .a2 h4{
