@@ -1,0 +1,1010 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/*   font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+html {
+    transition: .5s;
+    font-size: 15px;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p,.k1{  
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+figure {
+    width: fit-content;
+    height: fit-content;
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+header #portoflio {
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 130px;
+    font-size: 3rem;
+    border-bottom: 1px solid #fff;
+}
+
+header #im {
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    background-color: #7B0000;
+    text-align: center;
+    line-height: 130px;
+    font-size: 3rem;
+    border-bottom: 1px solid #fff;
+}
+
+header #leica{
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 130px;
+    font-size: 3rem;
+    border-bottom: 1px solid #fff;
+}
+
+header #supreme{
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 130px;
+    font-size: 3rem;
+    border-bottom: 1px solid #fff;
+}
+
+header #uiux{
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 130px;
+    font-size: 3rem;
+    border-bottom: 1px solid #fff;
+}
+
+header #branding{
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 130px;
+    font-size: 3rem;
+    border-bottom: 1px solid #fff;
+}
+
+header #cafe{
+    width: 100%;
+    height: 130px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 130px;
+    font-size: 3rem;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+/* my */
+#my{
+    width: 100%;
+    height: 95vh;
+    padding: 0 100px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#my h2{
+    width: fit-content;
+    margin:25px 0;
+    font-size: 5rem;
+    color: #7B0000;
+}
+#my .allbox{
+    position: relative;
+}
+#my .allbox .all1{
+    display: flex;
+}
+#my .allbox .all1 .box img{
+    width: 80%;
+}
+#my .allbox .all1 .text{
+    margin-left: 140px;
+}
+#my .allbox .all1 .text p{
+    font-size: 2rem;
+}
+#my .allbox .all1 .text p{
+    margin-bottom: 50px;
+}
+#my .allbox .all2{
+    width: 85%;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 53%;
+    left: 20%;
+}
+#my .allbox .all2 .a1{
+    width: 30%;
+    height: 280px;
+    padding: 25px;
+    background-color: #7B0000;
+    color: #fff;
+}
+#my .allbox .all2 .a1 h4{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+#my .allbox .all2 .a1 p{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+#my .allbox .all2 .a1 span{
+    margin-right: 15px;
+}
+#my .allbox .all2 .a1 p:last-child{
+    margin-bottom: 0;
+}
+#my .allbox .all2 .a2{
+    width: 65%;
+    height: 312px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+#my .allbox .all2 .a2 h4{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+#my .allbox .all2 .a2 figure{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+/* //my */
+
+/* leica */
+#le{
+    width: 100%;
+    height: 95vh;
+    padding: 0 100px;
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+}
+#le .alltext{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#le .t{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#le .t figure img{
+    position: relative;
+}
+#le .t h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#le .text{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#le .text .t2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+#le .text .t2 .title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: 20px;
+}
+#le .text .t2 p{
+    font-size: 1.5rem;
+    line-height: 170%;
+    margin-right: 10px;
+}
+
+#le .box{
+    width: 50%;
+    height: 60%;
+    margin-top: 300px;
+    position: relative;
+}
+#le .box figure img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#le .button{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    margin-bottom: 30px;
+    transform: rotate(-45deg);
+    display: none;
+}
+#le .button::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid red;
+    border-right: 0;
+    border-bottom: 0;
+}
+#le .button::after{
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 3px;
+    background-color: red;
+    transform-origin: 0 100%;
+    transform: rotate(45deg);
+}
+
+/* //leica */
+
+
+/* supreme */
+#sup{
+    width: 100%;
+    height: 95vh;
+    padding: 0 100px;
+    margin-top: 100px;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+}
+#sup .alltext{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#sup .t{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#sup .text{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#sup .text .t2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+#sup .text .t2 .title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: 20px;
+}
+#sup .text .t2 p{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    line-height: 170%;
+}
+#sup .t h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#sup .box{
+    width: 50%;
+    height: 60%;
+    margin-top: 300px;
+    position: relative;
+}
+#sup .box figure img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+/* //supreme */
+
+/* ui/ux */
+#ui{
+    width: 95%;
+    height: 95vh;
+    margin: auto;
+    padding: 0 100px;
+    margin-top: 100px;
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 100px;
+}
+#ui .alltext{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}#ui .alltext .text{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#ui .alltext .text .t2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+#ui .alltext .text .t2 .title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: 20px;
+}
+#ui .alltext .text .t2 p{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    line-height: 170%;
+}
+#ui .t{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#ui .t h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#ui .box{
+    width: 60%;
+    height: 60%;
+    margin-top: 300px;
+    position: relative;
+}
+#ui .box figure img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+/* //ui/ux */
+
+
+/* branding */
+#brand{
+    width: 95%;
+    height: 95vh;
+    margin: auto;
+    padding:0 100px;
+    margin-top: 100px;
+    display: flex;
+    border: 1px solid #000;
+}
+#brand .alltext{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#brand .alltext .text{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#brand .alltext .text .t2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+#brand .alltext .text .t2 .title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: 20px;
+}
+#brand .alltext .text .t2 p{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    line-height: 170%;
+}
+#brand .t{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#brand .t h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#brand .box{
+    width: 60%;
+    height: 60%;
+    margin-top: 300px;
+    position: relative;
+}
+#brand .box figure img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+/* //branding */
+
+/* cafe24 */
+#cafe_i{
+    width: 95%;
+    height: 95vh;
+    margin: auto;
+    padding: 0 100px;
+    margin-top: 100px;
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 100px;
+}
+#cafe_i .alltext{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+#cafe_i .alltext .text{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#cafe_i .alltext .text .t2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+#cafe_i .alltext .text .t2 .title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: 20px;
+}
+#cafe_i .alltext .text .t2 p{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    line-height: 170%;
+}
+#cafe_i .t{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+}
+#cafe_i .t h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+#cafe_i .box{
+    width: 60%;
+    height: 60%;
+    margin-top: 300px;
+    position: relative;
+}
+#cafe_i .box figure img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+/* //cafe24 */
+
+
+/* footer */
+footer{
+    width: 100%;
+    margin-top: 300px;
+}
+footer h2{
+    padding: 0 100px;
+    font-size: 3rem;
+    color: #7B0000;
+    border-bottom: 1px solid #000;
+}
+footer .all{
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+}
+footer .all .f1{
+    width: 50%;
+    font-size: 1.5rem;
+    border-right: 1px solid #000;
+}
+footer .all .f1 p:first-child{
+    margin-top: 50px;
+}
+footer .all .f1 p{
+    margin-bottom: 50px;
+}
+footer .all .f2{
+    width: 50%;
+    padding:50px;
+}
+footer .all .f2 .text1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+footer .all .f2 .text1 p{
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+footer .all .f2 .text2{
+    display: flex;
+    align-items: center;
+}
+footer .all .f2 .text2 p{
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+/* //footer */
+
+@media screen and (max-width:1670px) {
+    #le .text .t2 .title{
+        font-size: 1.8rem;
+    }
+    #le .text .t2 p{
+        font-size: 1.3rem;
+    }
+    #sup .text .t2 .title{
+        font-size: 1.8rem;
+    }
+    #sup .text .t2 p{
+        font-size: 1.3rem;
+    }
+    
+}
+@media screen and (max-width:1600px) {
+    #my .allbox .all1 .text{
+        margin-left: 5px;
+    }
+    #my .allbox .all2 .a1{
+        width: 33%;
+    }
+    #my .allbox .all2 .a1 p{
+        font-size: 1.1rem;
+    }
+    /* #le .box{
+        height: 50%;
+    }
+    #sup .box{
+        height: 50%;
+    }
+    #ui .box{
+        height: 50%;
+    }
+    #brand .box{
+        height: 50%;
+    }
+    #cafe_i .box{
+        height: 50%;
+    } */
+    
+}
+
+@media screen and (max-width:1500px) {
+    html{
+        font-size: 14px;
+    }
+    #my .allbox .all2{
+        top: 51%;
+    }
+    #my .allbox .all2 .a2{
+        height: 325px;
+    }
+    
+}
+@media screen and (max-width:1440px) {
+    #le .text .t2 .title{
+        font-size: 1.7rem;
+    }
+    #le .text .t2 p{
+        font-size: 1.2rem;
+    }
+    #sup .text .t2 .title{
+        font-size: 1.7rem;
+    }
+    #sup .text .t2 p{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:1365px) {
+    #my .allbox .all1 .text p{
+        font-size: 1.7rem;
+        margin-left: 0;
+    }
+    #le .text .t2 .title{
+        font-size: 1.5rem;
+    }
+    #le .text .t2 p{
+        font-size: 1rem;
+    }
+    #sup .text .t2 .title{
+        font-size: 1.5rem;
+    }
+    #sup .text .t2 p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:1280px) {
+    html{
+        font-size: 13px;
+    }
+    #my .allbox .all2 .a1{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    #my .allbox .all1 .text{
+        margin-left: 0;
+    }
+    #my .allbox .all1 .text p{
+        font-size: 1.3rem;
+    }
+    #my .allbox .all2 .a1{
+        width: 54%;
+    }
+    
+}
+@media screen and (max-width:1070px) {
+    #my .allbox .all1 .text p{
+        margin-bottom: 35px;
+    }    
+}
+@media screen and (max-width:991px) {
+    html{
+        font-size: 12px;
+    }
+    #my{
+        height: fit-content;
+    }
+    #my .allbox .all1{
+        flex-direction: column;
+    }
+    #my .allbox .all1 .box img{
+        width: 100%;
+    }
+    #my .allbox .all1 .text{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    #my .allbox .all2{
+        position:unset;
+        display: flex;
+        flex-direction: column;
+    }
+    #my .allbox .all2{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #my .allbox .all2 .a1{
+        width: 100%;
+    }
+    #my .allbox .all2 .a1 h4{
+        font-size: 2rem;
+    }
+    
+#my .allbox .all2 .a1 p {
+    font-size: 1.9rem;
+}
+    #my .allbox .all2 .a2{
+        width: 100%;
+    }
+    #le{
+        flex-direction: column;
+    }
+    #le .alltext{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #le .alltext .t{
+        width: 50%;
+        height: 100%;
+    }
+    #le .alltext .text{
+        width: 50%;
+        height: 100%;
+    }
+    #le .box{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+    #le .t h2{
+        margin-right: 55px;
+        font-size: 3.5rem;
+    }
+    #le .t img{
+        width: 70%;
+    }
+    #le .box{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    #sup{
+        flex-direction: column;
+    }
+    #sup .alltext{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #sup .t{
+        width: 50%;
+        height: 100%;
+    }
+    #sup .alltext .text{
+        width: 50%;
+        height: 100%;
+    }
+    #sup .t h2{
+        margin-right: 55px;
+        font-size: 3.5rem;
+    }
+    #sup .box{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+    #sup .t img{
+        width: 70%;
+    }
+
+    #ui{
+        flex-direction: column;
+    }
+    #ui .alltext{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #ui .alltext .text{
+        width: 50%;
+        height: 100%;
+    }
+    #ui .t{
+        width: 50%;
+        height: 100%;
+    }
+    #ui .t h2{
+        margin-right: 55px;
+        font-size: 3.5rem;
+    }
+    #ui .t img{
+        width: 70%;
+    }
+    #ui .box{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    #brand{
+        flex-direction: column;
+    }
+    #brand .alltext{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #brand .t{
+        width: 50%;
+        height: 100%;
+    }
+    #brand .alltext .text{
+        width: 50%;
+        height: 100%;
+    }
+    #brand .t h2{
+        margin-right: 55px;
+        font-size: 3.5rem;
+    }
+    #brand .t img{
+        width: 70%;
+    }
+    #brand .box{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+    
+    #cafe_i{
+        flex-direction: column;
+    }
+    #cafe_i .alltext{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #cafe_i .t{
+        width: 50%;
+        height: 100%;
+    }
+    #cafe_i .alltext .text{
+        width: 50%;
+        height: 100%;
+    }
+    #cafe_i .t h2{
+        margin-right: 55px;
+        font-size: 3.5rem;
+    }
+    #cafe_i .t img{
+        width: 70%;
+    }
+    #cafe_i .box{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    footer{
+        padding: 0 100px;
+        margin-bottom: 50px;
+    }
+    footer h2{
+        padding: 0;
+    }
+    footer .all{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+    }
+    footer .all .f1{
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid #000;
+    }
+    footer .all .f2{
+        width: 100%;
+        margin-top: 50px;
+        padding: 0;
+        border-bottom: 1px solid #000;
+    }
+    footer .all .f2 .text2{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:767px) {
+    #my{
+        padding: 0 20px;
+    }
+    #le{
+        padding: 0 20px;
+    }
+    #sup{
+        padding: 0 20px;
+    }
+    #sup .t h2{
+        font-size: 2.8rem;
+    }
+    #ui{
+        padding: 0 20px;
+    }
+    #ui .t h2{
+        font-size: 2.8rem;
+    }
+    #brand{
+        padding: 0 20px;
+    }
+    #brand .t h2{
+        font-size: 2.8rem;
+    }
+    #cafe_i{
+        padding: 0 20px;
+    }
+    #cafe_i .t h2{
+        font-size: 2.8rem;
+    }
+    footer{
+        padding: 0 20px;
+    }
+    
+}
+
+@media screen and (max-width:575px) {
+    #my{
+        padding: 0 16px;
+    }
+    #my .allbox .all2 .a1{
+        padding: 30px;
+    }
+    #le{
+        padding: 0 16px;
+        border-radius: 55px;
+    }
+    #le .t h2{
+        font-size: 2rem;
+    }
+    #sup{
+        padding: 0 16px;
+    }
+    #sup .t h2{
+        font-size: 2rem;
+    }
+    #ui{
+        padding:0 16px;
+        border-radius: 55px;
+    }
+    #ui .t h2{
+        font-size: 2rem;
+    }
+    #brand{
+        padding: 0 16px;
+    }
+    #brand .t h2{
+        font-size: 2rem;
+    }
+    #cafe_i{
+        padding: 0 16px;
+        border-radius: 55px;
+    }
+    #cafe_i .t h2{
+        font-size: 2rem;
+    }
+    footer{
+        padding: 0 16px;
+    }
+}
