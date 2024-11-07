@@ -1164,88 +1164,88 @@ footer .all .f2 .text2 p{
 
 @media screen and (max-width:390px) {
     #my .allbox .all2 .a1 h4{
-        margin-bottom:20px;
+        margin-bottom:15px;
     }
     #my .allbox .all2 .a1 p{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     #my .allbox .all2 .a2 h4{
         font-size: 1.8rem;
     }
     #le{
-        height: 125vh;
+        height: 135vh;
     }
     #le .title .t1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #le .title .t2{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     #le .text1{
         font-size: 1rem;
     }
     #le .text2{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     #sup{
-        height: 125vh;
+        height: 135vh;
     }
     #sup .title .t1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #sup .title .t2{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     #sup .text1{
         font-size: 1rem;
     }
     #sup .text2{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     #ui{
-        height: 125vh;
+        height: 135vh;
     }
     #ui .title .t1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #ui .title .t2{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     #ui .text1{
         font-size: 1rem;
     }
     #ui .text2{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     #brand{
-        height: 125vh;
+        height: 135vh;
     }
     #brand .title .t1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #brand .title .t2{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     #brand .text1{
         font-size: 1rem;
     }
     #brand .text2{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     #cafe_i{
-        height: 155vh;
+        height: 165vh;
     }
     #cafe_i .title .t1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #cafe_i .title .t2{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     #cafe_i .text1{
         font-size: 1rem;
     }
     #cafe_i .text2{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     footer .all .f1{
         font-size: 1.4rem;
